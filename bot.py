@@ -8,8 +8,8 @@ import numpy as np
 from datetime import datetime
 
 # ========== CONFIG ==========
-BOT_TOKEN = "8447902476:AAFr8CFMEVNrkhmZnMsTFiaZf7C3vBQXif0"
-CHAT_ID = "6416081625"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 TIMEFRAME = "5m"
 KLINES_LIMIT = 60
